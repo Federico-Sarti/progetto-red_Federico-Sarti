@@ -14,8 +14,14 @@ p {
 .txt-darkred {
     color: var(--darkred);
 }
+.txt-grey {
+    color: var(--acc)
+}
 .txt-letter-spacing {
     letter-spacing: 25px;
+}
+.fs-18 {
+    font-size: 1.125rem;
 }
 .fs-24 {
     font-size: 1.5rem;
@@ -39,6 +45,12 @@ p {
 }
 .bg-grey {
     background-color: var(--acc);
+}
+.bg-darkred {
+    background-color: var(--darkred);
+}
+.row {
+    width: 100%;
 }
 /* fine preimpostazioni */
 /* inizio stile navbar */
@@ -199,4 +211,25 @@ p {
     border-radius: 50%;
     width: 100%;
     height: 100%;
+}
+.circle-big {
+    width: 250px;
+    height: 250px;
+}
+.bg-red-trees {
+    height: 450px;
+    
+}
+.bg-red-trees::after {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url(./media/other.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: contain;
 }
